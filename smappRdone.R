@@ -27,25 +27,25 @@ if(!require(ggplot2)) {
 
 
 #Setting up the OAuth Key 1
-api_key <- "UTsgj7mjFCyutURQ9hFLUsJx6"
+api_key <- ""
 
-api_secret <- "vPwzl6L0hCtGMKGeIJHxPTcw6jOub4fB7NrOx6YQyuslU8sveK"
+api_secret <- ""
 
-atoken <- " 16280903-SHcxm2NHJy1CpFYa1muJ7tdulN99Dlhql45Nj5LpY"
+atoken <- " "
 
-atoken_secret <- "ehoStGnleKxgLl6tKxrwUjgWTTJ3rKp5PWhCHmKF2NTTf"
+atoken_secret <- ""
 
 setup_twitter_oauth(api_key,api_secret,access_token=atoken)
 
 
 #Setting up the OAuth Key 2
-api_key1 <- "2UYdNCfHpmfzOIHKzKqVGFTE6"
+api_key1 <- ""
 
-api_secret1 <- "Gn87XSc1hLxbt8mbk9cQ4fmR9cKeOToIR9Ei2XKMt3KI7u0hUL"
+api_secret1 <- ""
 
-atoken1 <- " 16280903-EgpG7X9XQbmcajILrMAK7Tf6FOmqHEnNc8sCvZDbf"
+atoken1 <- ""
 
-atoken_secret1 <- "GWrIwseUzVQwxJx2L1VfkF4gBs9hNu6Bq1UbtjBSvmhSG"
+atoken_secret1 <- ""
 
 setup_twitter_oauth(api_key1,api_secret1,access_token=atoken1)
 
