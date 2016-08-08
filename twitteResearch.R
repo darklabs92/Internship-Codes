@@ -28,26 +28,26 @@ if(!require(httpuv)) {
   install.packages("httpuv"); require(httpuv)}
 
 #Setting up the OAuth Key
-api_key <- "vtHQe8yMDnFG1r1R1wN05sX1M"
+api_key <- ""
 
-api_secret <- "Wu7Fzau36IXCYQ0Ot6NmJfeKCrcI5kdRLOREc83yAUHslBXdOy"
+api_secret <- ""
 
-atoken <- " 16280903-96YlRjV7ZQUiMXatzcclDzjjMt8hx38484WLlAALP"
+atoken <- ""
 
-atoken_secret <- "McGVxwJ9C6OD318Og6nbXp77HOITjbrojg6JwMKR1n0Xl"
+atoken_secret <- ""
 
 setup_twitter_oauth(api_key,api_secret,access_token=atoken)
 
 
 
 #Setting up the OAuth Key 2
-api_key <- "axsUEU1x2w4gOc5TCR5kHwmkf"
+api_key <- ""
 
-api_secret <- "RHjx4FyeUErx0EosVwppr8WJhxFztpv3Hquo7hfK1BdX53oUBh"
+api_secret <- ""
 
-atoken <- " 16280903-c10KuFOxYWkcTMqYlsL3VrRBk06BKZz0tFU8kuUy9"
+atoken <- ""
 
-atoken_secret <- "Bt0vV8HnPiIw7J2b142uStqygjTkuvGdPN0fhj7qCvF4t"
+atoken_secret <- ""
 
 setup_twitter_oauth(api_key,api_secret,access_token=atoken)
 
